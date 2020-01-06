@@ -1,11 +1,11 @@
 # Node.js API to get the full package dependency tree based on a given package
 
-The API uses https://registry.npmjs.org/ API to get direct dependencies for a package.
-Then dependencies for the package dependencies are fetched and so on... so that nested dependency tree is formed.
-API requests are efficiently cached in graph data structure to avoid recurring requests.
-Errors, warnings and useful information is logged in logs/app.log file.
-The code has some TODO comments in the form: // TODO ...
-These comments represent the next steps of the API development.
+The API uses https://registry.npmjs.org/ API to get direct dependencies for a package.  
+Then dependencies for the package dependencies are fetched and so on... so that nested dependency tree is formed.  
+API requests are efficiently cached in graph data structure to avoid recurring requests.  
+Errors, warnings and useful information is logged in logs/app.log file.  
+The code has some TODO comments in the form: // TODO ...  
+These comments represent the next steps of the API development.  
 
 For example, the following API request
 
